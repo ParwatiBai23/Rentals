@@ -22,7 +22,7 @@ app_license = "mit"
 
 # include js, css files in header of web form
 # webform_include_js = {"doctype": "public/js/doctype.js"}
-# webform_include_css = {"doctype": "public/css/doctype.css"}
+webform_include_css = {"doctype": "public/css/doctype.css"}
 
 # include js in page
 # page_js = {"page" : "public/js/file.js"}
@@ -227,3 +227,9 @@ app_license = "mit"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+
+
+
+
+# Api key = Save API Secret: fff76ff36517cce
+website_route_rules = [{'from_route': '/portal/<path:app_path>', 'to_route': 'portal'},]
